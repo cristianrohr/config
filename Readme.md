@@ -1,4 +1,6 @@
-**i3**
+# Config's & other info about interesting apps
+
+## i3
 
 http://hndr.me/blog/making-my-new-linux-less-ugly/
 
