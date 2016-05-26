@@ -17,6 +17,12 @@
 * oh my zsh
 `sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"`
 
+* Anaconda y Jupyter
+- Download anaconda https://www.continuum.io/downloads
+- Install anaconda
+	conda install jupyter numpy pandas biopython matplotlib scipy
+
+
 # Config's
 
 ## i3
@@ -52,3 +58,4 @@ git clone https://github.com/powerline/fonts.git
 * http://hndr.me/blog/making-my-new-linux-less-ugly/
 * http://blog.tunnelshade.in/2014/05/making-i3-beautiful.html
 * https://github.com/giacomos/i3wm-config/blob/master/config_work_laptop
+
