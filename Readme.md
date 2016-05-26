@@ -1,6 +1,7 @@
 # After install Ubuntu
 
 * Get google-chrome
+
 * Get dropbox
 
 ## Install some stuff
@@ -16,7 +17,13 @@
 * oh my zsh
 `sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"`
 
-- Install i3 WM
+# Config's
+
+## i3
+
+#### Requirements
+
+1. Install i3
 ```bash
 sudo echo "deb http://debian.sur5r.net/i3/ $(lsb_release -c -s) universe" >> /etc/apt/sources.list
 sudo apt-get update
@@ -25,27 +32,20 @@ sudo apt-get update
 sudo apt-get install i3
 ```
 
-- Get rid of Nautilus desktop. (If this doesn't work, install dconf-tools and maybe libdconf1 and change that option manually from the dconf-editor.)
+* Get rid of Nautilus desktop. (If this doesn't work, install dconf-tools and maybe libdconf1 and change that option manually from the dconf-editor.)
 
 `gsettings set org.gnome.desktop.background show-desktop-icons false`
 
-- Fonts for airline/powerline:
+* Fonts for airline/powerline:
 ```bash
 git clone https://github.com/powerline/fonts.git
 ./install.sh
 ``` 
 
-Update the system’s font cache.
+* Update the system’s font cache.
 `sudo fc-cache -f -v`
 
-# Config's
-
-## i3
-
-#### Requirements
-
-Step 1. Install i3
-Step 2. Install rofi
+2. Install rofi
 `sudo apt-get install rofi`
 
 #### Configure
