@@ -14,14 +14,26 @@
 * Productividad
 `sudo apt-get install zsh git-core python3-pip vim-gnome i3 curl libncurses-dev python-dev build-essential cmake libfreetype6-dev feh`
 
+* R & R-Studio
+```bash
+sudo echo "deb http://cran.rstudio.com/bin/linux/ubuntu xenial/" | sudo tee -a /etc/apt/sources.list
+gpg --keyserver keyserver.ubuntu.com --recv-key E084DAB9
+gpg -a --export E084DAB9 | sudo apt-key add -
+sudo apt-get update
+sudo apt-get install r-base r-base-dev
+
+sudo apt-get install gdebi-core
+wget https://download1.rstudio.org/rstudio-0.99.896-amd64.deb
+sudo gdebi -n rstudio-0.99.896-amd64.deb
+```
+
 * oh my zsh
 `sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"`
 
 * Anaconda y Jupyter
 - Download anaconda https://www.continuum.io/downloads
 - Install anaconda
-	conda install jupyter numpy pandas biopython matplotlib scipy
-
+`conda install jupyter numpy pandas biopython matplotlib scipy`
 
 # Config's
 
@@ -58,4 +70,3 @@ git clone https://github.com/powerline/fonts.git
 * http://hndr.me/blog/making-my-new-linux-less-ugly/
 * http://blog.tunnelshade.in/2014/05/making-i3-beautiful.html
 * https://github.com/giacomos/i3wm-config/blob/master/config_work_laptop
-
