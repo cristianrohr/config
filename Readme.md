@@ -1,8 +1,8 @@
 # After install Ubuntu
 
-* Get google-chrome
-
+* Get google-chrome & install vimium plugin
 * Get dropbox
+* Get mendeley
 
 ## Install some stuff
 * Ubuntu restricted extras
@@ -12,7 +12,7 @@
 `sudo apt-get install rar unace p7zip p7zip-full p7zip-rar unrar lzip lhasa arj sharutils mpack lzma lzop cabextract`
 
 * Productividad
-`sudo apt-get install zsh git-core python3-pip vim-gnome i3 curl libncurses-dev python-dev build-essential cmake libfreetype6-dev feh`
+`sudo apt-get install zsh git-core python3-pip vim-gnome i3 curl libncurses-dev python-dev build-essential cmake libfreetype6-dev feh libcurl4-gnutls-dev`
 
 * R & R-Studio
 ```bash
