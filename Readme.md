@@ -1,20 +1,19 @@
 # After install Ubuntu
-
 * Get google-chrome & install vimium plugin
 * Get dropbox
 * Get mendeley
 
 ## Install some stuff
-* Ubuntu restricted extras
+**Ubuntu restricted extras**
 `sudo apt install ubuntu-restricted-extras`
 
-* Compresion
+**Compresion**
 `sudo apt-get install rar unace p7zip p7zip-full p7zip-rar unrar lzip lhasa arj sharutils mpack lzma lzop cabextract`
 
-* Productividad
+**Productividad**
 `sudo apt-get install zsh git-core python3-pip vim-gnome i3 curl libncurses-dev python-dev build-essential cmake libfreetype6-dev feh libcurl4-gnutls-dev`
 
-* R & R-Studio
+**R & R-Studio**
 ```bash
 sudo echo "deb http://cran.rstudio.com/bin/linux/ubuntu xenial/" | sudo tee -a /etc/apt/sources.list
 gpg --keyserver keyserver.ubuntu.com --recv-key E084DAB9
@@ -27,13 +26,32 @@ wget https://download1.rstudio.org/rstudio-0.99.896-amd64.deb
 sudo gdebi -n rstudio-0.99.896-amd64.deb
 ```
 
-* oh my zsh
+**oh my zsh**
 `sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"`
 
-* Anaconda y Jupyter
+**Anaconda y Jupyter**
 - Download anaconda https://www.continuum.io/downloads
 - Install anaconda
 `conda install jupyter numpy pandas biopython matplotlib scipy`
+
+**Juyter bash kernel**
+```bash
+pip install bash_kernel
+python -m bash_kernel.install
+```
+
+**Jupyter R kernel**
+```bash
+sudo add-apt-repository ppa:chronitis/jupyter
+sudo apt-get update
+sudo apt-get install irkernel
+```
+
+**Jupyter Perl kernel**
+```bash
+sudo cpan
+install Devel::IPerl
+```
 
 # Config's
 
