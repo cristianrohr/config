@@ -6,7 +6,10 @@
 # Optionally, if you set this to "random", it'll load a random theme each
 # time that oh-my-zsh is loaded.
 # ZSH_THEME="robbyrussell"
-ZSH_THEME="dieter"
+#ZSH_THEME="dieter"
+ZSH_THEME="ys"
+#ZSH_THEME="xiong-chiamiov-plus"
+#ZSH_THEME="honukai"
 
 # Uncomment the following line to use case-sensitive completion.
 # CASE_SENSITIVE="true"
