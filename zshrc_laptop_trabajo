@@ -1,13 +1,18 @@
 # Path to your oh-my-zsh installation.
   export ZSH=/home/horus/.oh-my-zsh
 
+# Fix the cd .. not auto completation
+zstyle ':completion:*' completer _complete _ignored _expand_alias
+autoload -Uz compinit
+compinit
+
 # Set name of the theme to load.
 # Look in ~/.oh-my-zsh/themes/
 # Optionally, if you set this to "random", it'll load a random theme each
 # time that oh-my-zsh is loaded.
 # ZSH_THEME="robbyrussell"
-#ZSH_THEME="dieter"
-ZSH_THEME="ys"
+ZSH_THEME="dieter"
+#ZSH_THEME="ys"
 #ZSH_THEME="xiong-chiamiov-plus"
 #ZSH_THEME="honukai"
 

@@ -16,3 +16,9 @@ sudo apt-get install openjdk-7-jdk
 sudo apt-get install openjdk-7-jre
 ```
 
+**homer**
+```bash
+wget http://homer.salk.edu/homer/configureHomer.pl
+perl configureHomer.pl -install
+perl configureHomer.pl -install hg19
+```

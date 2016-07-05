@@ -11,7 +11,7 @@
 `sudo apt-get install rar unace p7zip p7zip-full p7zip-rar unrar lzip lhasa arj sharutils mpack lzma lzop cabextract`
 
 **Productividad**
-`sudo apt-get install zsh git-core python3-pip vim-gnome i3 curl libncurses-dev python-dev build-essential cmake libfreetype6-dev feh libcurl4-gnutls-dev`
+`sudo apt-get install zsh git-core python3-pip vim-gnome i3 curl libncurses-dev python-dev build-essential cmake libfreetype6-dev feh libcurl4-gnutls-dev pandoc tex-live`
 
 **R & R-Studio**
 ```bash
@@ -52,6 +52,9 @@ sudo apt-get install irkernel
 sudo cpan
 install Devel::IPerl
 ```
+
+**Jupyter themes** --> https://github.com/dunovank/jupyter-themes
+`pip install git+https://github.com/dunovank/jupyter-themes.git`
 
 # Config's
 
