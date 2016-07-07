@@ -109,6 +109,9 @@ bindsym $mod+a focus parent
 # focus the child container
 #bindsym $mod+d focus child
 
+# Take screenshot
+bindsym $mod+p scrot -u '%Y%m%d_%H%M%S.png' -e 'mv $f ~/Imágenes/'
+
 # switch to workspace
 bindsym $mod+1 workspace $tag1
 bindsym $mod+2 workspace $tag2

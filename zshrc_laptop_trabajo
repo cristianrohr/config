@@ -97,3 +97,5 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
 alias notebook="jupyter notebook"
+
+export PATH=$PATH:/home/horus/software/homer/bin
